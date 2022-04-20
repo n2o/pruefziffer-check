@@ -40,7 +40,7 @@ class Matrikelnummer {
      * 6. Stelle * 3)
      * modulo 10
      */
-    private boolean ist_gueltig() {
+    boolean ist_gueltig() {
         int check = (this.i0 * 9 +
                 this.i1 * 7 +
                 this.i2 * 3 +
